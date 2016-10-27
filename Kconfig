@@ -1,0 +1,10 @@
+config PIXIEPRO_IMX6_SPREAD_SPECTRUM
+	tristate "PixiePro Spread Sprectrum enable driver"
+	default n
+	---help---
+	  IMX6 PixiePro Spread Spectrum driver.
+	  This is a driver to enable spread spectrum in PixiePro boards 
+
+	  To compile this driver as a module, choose m here. The module will
+	  be called spread_spectrum.
+	  Say N if unsure.
